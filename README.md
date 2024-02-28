@@ -1,2 +1,3 @@
 # devBreak
-A simple web based web development client with a preview window
+#### A simple stylized web based web development client using [webssh](https://github.com/huashengdun/webssh/) with a preview.
+---
