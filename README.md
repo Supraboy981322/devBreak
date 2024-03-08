@@ -15,7 +15,7 @@ This has only been tested with [Apache](https://httpd.apache.org/) and [webssh](
 - [Usage](#usage)
 - [customization](#customization)
 
-
+---
 ## Interface
 
 Login screen:
@@ -80,3 +80,18 @@ As of now, the preview frame does not refresh automatically, so you must manuall
   - Above the preview frame, to the right of the "***Go***" button, press the button labled "***&#x27F3;***" to refresh the preview frame.
 
 ---
+## Customization
+
+By design, devBreak is highly customizable. Using custom CSS and a background images, you can make devBreak look as unique or stylistic as you please.
+
+>Please note: in order to make custom styling, you must have at least novice to moderate knowledge of CSS.
+
+Every element of devBreak was designed to be modified to your liking. Even webssh can be customized (see the documentation on [the webssh GitHub page](https://github.com/huashengdun/webssh/) for information/instructions)
+
+### Examples:
+
+["tbd" - by tdb](tbd)
+![tbd](https://supraboy981322.github.io/uncanny%20gobledygook.png)
+
+["tbd" - by tbd](tbd)
+![tbd](https://supraboy981322.github.io/uncanny%20gobledygook.png)
