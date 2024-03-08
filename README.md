@@ -13,6 +13,7 @@ This has only been tested with [Apache](https://httpd.apache.org/) and [webssh](
 - [Installation](#installation)
 - [Interface](#interface)
 - [Usage](#usage)
+- [customization](#customization)
 
 
 ## Interface
@@ -72,12 +73,10 @@ By default, the preview frame does not display anything on load. However, you ca
 
 Alternatively, you could enter the URL to your preview page each time you the load or reload devBreak.
 
-  - Just above the preview frame, enter the URL to your preview page in the address bar and press the "***Go***" button located immediately to the right of the address bar.
+  - Just above the preview frame, enter the URL to your preview page in the address bar and press the "***Go***"  button located immediately to the right of the address bar.
 
 As of now, the preview frame does not refresh automatically, so you must manually refresh the page.
 
   - Above the preview frame, to the right of the "***Go***" button, press the button labled "***&#x27F3;***" to refresh the preview frame.
 
 ---
-## 
-
