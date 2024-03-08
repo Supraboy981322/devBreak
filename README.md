@@ -9,9 +9,10 @@ This has only been tested with [Apache](https://httpd.apache.org/) and [webssh](
 ---
 ## Shortcuts
 
-- [Note](https://github.com/Supraboy981322/devBreak/#note)
-- [Installation](https://github.com/Supraboy981322/devBreak/#installation)
-- [Interface](https://github.com/Supraboy981322/devBreak/#interface)
+- [Note](#note)
+- [Installation](#installation)
+- [Interface](#interface)
+- [Usage](#usage)
 
 
 ## Interface
@@ -42,7 +43,41 @@ Connected:
 
   `sudo nano [location of your directory]/devBreak/index.html`
 
-- Modify the `src` tag under the iframe after the comment with your webssh client URL.
+- Modify the `src` tag under the iframe after the corresponding comment with your webssh client URL.
 
   `<iframe class="frame" id="devEnvironmentFrame" src="[Your webssh URL]"></iframe>`
   
+---
+## Usage
+
+### The webssh frame:
+
+Once the page is setup, it is farly easy to SSH into your server. 
+
+- Sign-in:
+  * Enter the *hostname* or *IP address* of your SSH server
+  * Enter your *username*, *password*, *private key*\*, *passphrase*\*, and *TOTP*\*
+    >Private key, passphrase, and TOTP are optional
+- Use the application of your choice for web development
+  > I recommend GNU nano (`sudo nano`), or Vim, I tested (only because I tested both and GNU nano is included in most major Linux distributions)
+- Alternatively, you could enter the URL of the site of your choice into the *address bar* directly above the frame
+
+### The preview frame:
+
+By default, the preview frame does not display anything on load. However, you can set the default URL for the preview frame when the web page is loaded:
+
+- Just like setting the webssh URL, in the file titled `index.html`, add the URL to your webpage in the `src` tag in the iframe under the corresponding comment.
+  
+  `<iframe class="frame" id="previewFrame" src=""></iframe>`
+
+Alternatively, you could enter the URL to your preview page each time you the load or reload devBreak.
+
+  - Just above the preview frame, enter the URL to your preview page in the address bar and press the "***Go***" button located immediately to the right of the address bar.
+
+As of now, the preview frame does not refresh automatically, so you must manually refresh the page.
+
+  - Above the preview frame, to the right of the "***Go***" button, press the button labled "***&#x27F3;***" to refresh the preview frame.
+
+---
+## 
+
