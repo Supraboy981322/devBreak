@@ -13,7 +13,7 @@ This has only been tested with [Apache](https://httpd.apache.org/) and [webssh](
 - [Installation](#installation)
 - [Interface](#interface)
 - [Usage](#usage)
-- [customization](#customization)
+- [Customization](#customization)
 
 ---
 ## Interface
