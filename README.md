@@ -13,6 +13,7 @@ This has only been tested with [Apache](https://httpd.apache.org/) and [webssh](
 - [Installation](#installation)
 - [Interface](#interface)
 - [Usage](#usage)
+- [Customization](#customization)
 
 ---
 ## Interface
@@ -59,7 +60,7 @@ Once the page is setup, it is farly easy to SSH into your server.
   * Enter your *username*, *password*, *private key*\*, *passphrase*\*, and *TOTP*\*
     >Private key, passphrase, and TOTP are optional
 - Use the application of your choice for web development
-  > I recommend GNU nano (`sudo nano`), or Vim, I tested (only because I tested both and GNU nano is included in most major Linux distributions)
+  > I recommend GNU nano (`sudo nano`), or Vim, only because I tested both and GNU nano is included in most major Linux distributions
 - Alternatively, you could enter the URL of the site of your choice into the *address bar* directly above the frame
 
 ### The preview frame:
@@ -79,3 +80,10 @@ As of now, the preview frame does not refresh automatically, so you must manuall
   - Above the preview frame, to the right of the "***Go***" button, press the button labled "***&#x27F3;***" to refresh the preview frame.
 
 ---
+## Customization
+
+By design, devBreak is highly customizable. Using custom CSS and a background images, you can make devBreak look as unique or stylistic as you please.
+
+>Please note: in order to make custom styling, you must have at least novice to moderate knowledge of CSS.
+
+Every element of devBreak was designed to be modified to your liking. Even webssh can be customized (see the documentation on [the webssh GitHub page](https://github.com/huashengdun/webssh/) for information/instructions)
