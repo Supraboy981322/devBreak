@@ -88,4 +88,4 @@ By design, devBreak is highly customizable. Using custom CSS and a background im
 
 Every element of devBreak was designed to be modified to your liking. Even webssh can be customized (see the documentation on [the webssh GitHub page](https://github.com/huashengdun/webssh/) for information/instructions)
 
-Feel free to distribute custom CSS files for devBreak to the community. If I get wind of a custom stylesheet that I feel is worthy, I may even link to them as example.
+Feel free to distribute custom CSS files for devBreak to the community. If I get wind of a custom stylesheet that I feel is worthy, I may even link to them as examples.
