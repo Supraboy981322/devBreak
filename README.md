@@ -34,7 +34,7 @@ Connected:
 
 - Then, extract it (again, this tutorial will assume you picked `.tar.xz`, so adjust the command for your format)
 
-  `tar -xf devBreak.tar.gx`
+  `tar -xf devBreak.tar.xz`
 
 - Next, move it to the directory of your choosing on your web server.
 
