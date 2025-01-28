@@ -40,7 +40,7 @@ Connected:
 
   `sudo mv devBreak [location of your directory]`
 
-- Open `index.html` in your text editor (this tutorial will assume `nano`. 
+- Open `index.html` in your text editor (this tutorial will assume `nano`). 
 
   `sudo nano [location of your directory]/devBreak/index.html`
 
