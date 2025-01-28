@@ -38,7 +38,7 @@ Connected:
 
 - Next, move it to the directory of your choosing on your web server.
 
-  `mv devBreak [location of your directory]`
+  `sudo mv devBreak [location of your directory]`
 
 - Open `index.html` in your text editor (this tutorial will assume `nano`. 
 
