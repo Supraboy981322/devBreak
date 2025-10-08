@@ -1,6 +1,9 @@
 # devBreak
 **A simple _stylized_ web based web development client using [webssh](https://github.com/huashengdun/webssh/) with a preview.**
 
+> [!NOTE]
+> I am planning to come-back around to the project eventually (for an update), but I'd like to update all my other repositories first.
+
 ---
 ## Note:
 
